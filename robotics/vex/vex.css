@@ -1,0 +1,27 @@
+#info {
+  width: 30vw;
+  text-align: right;
+  min-width: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#heading {
+  margin: auto;
+  padding: 0px;
+  width: 30vw;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#infoDiv {
+  width: 100%;
+}
+
+#mat {
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+  width: 30vw;
+  min-width: 400px;
+}

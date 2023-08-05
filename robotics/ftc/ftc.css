@@ -1,0 +1,35 @@
+p {
+  font-size: 20px;
+}
+
+#flex-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+}
+
+#desc {
+  width: 50%;
+}
+
+#img-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: expand;
+}
+
+#img {
+  width: 100%;
+  margin: auto auto;
+}
+
+#heading {
+  margin: auto;
+  width: fit-content;
+}
+
+#overview {
+  padding: 20%;
+}

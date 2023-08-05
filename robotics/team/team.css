@@ -1,0 +1,65 @@
+#glassmorphism {
+  background: url("windows\ background.png");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+/*
+#test {
+  z-index: -1;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0.7)
+  );
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+*/
+
+#flexContainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.consulate {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+  background-color: rgba(250, 250, 250, 0.5);
+  border: 2px solid rgba(250, 250, 250, 0.8);
+  border-radius: 5px;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 50%;
+}
+
+.bio {
+  margin-top: 15px;
+  width: 95%;
+  height: fit-content;
+  padding: 10px;
+  font-size: 25px;
+  color: #1b1b1b;
+}
